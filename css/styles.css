@@ -1,0 +1,108 @@
+body {
+    font-family: 'Fira Code', Courier, monospace;
+    color: #333;
+    background-color: #886f6f; 
+}
+
+#profile-page {
+    width: 800px;
+    margin: 0 auto; 
+    background-color: #f8f8f8; 
+    padding-bottom: 70px; 
+}
+
+h1 {
+    color: #000000;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #aaa;
+}
+
+h2 {
+    color: #333333;
+    margin-top: 20px;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 1px 1px 3px #bbb;
+}
+
+.profile-image { 
+    width: 50%;       
+    height: auto;
+    max-width: 400px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%; 
+}
+
+.cv-section {
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+.about-me {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+}
+
+.Experiences {
+    background-color: #e2e2e2;
+}
+
+.Education {
+    background-color: #d0d0d0;
+    margin-bottom: 50px; 
+}
+
+.about-me p,
+.Experiences p {
+    line-height: 20px;
+    font-size: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+ul li {
+    color: green;
+}
+
+footer { 
+    text-align: center;
+    padding: 10px;
+    background-color: #473e3e;
+    color: #ffffff;
+    position: fixed; 
+    width: 100%;
+    bottom: 0;
+}
+
+a:hover {
+    color: #999;
+}
+
+footer p a {
+    color: #473e3e; 
+    background-color: #ffffff; 
+    padding: 10px 20px; 
+    border-radius: 5px; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
+    transition: all 0.2s ease-in-out; 
+}
+
+footer p a:hover {
+    background-color: #e0e0e0; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); 
+    transform: scale(1.05); 
+}
