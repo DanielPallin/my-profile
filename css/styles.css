@@ -1,14 +1,14 @@
 body {
     font-family: 'Fira Code', Courier, monospace;
     color: #333;
-    background-color: #886f6f; 
+    background-color: #886f6f;
 }
 
 #profile-page {
     width: 800px;
-    margin: 0 auto; 
-    background-color: #f8f8f8; 
-    padding-bottom: 70px; 
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    padding-bottom: 70px;
 }
 
 h1 {
@@ -28,13 +28,13 @@ h2 {
     text-shadow: 1px 1px 3px #bbb;
 }
 
-.profile-image { 
-    width: 50%;       
+.profile-image {
+    width: 50%;
     height: auto;
     max-width: 400px;
     display: block;
     margin: 20px auto;
-    border-radius: 50%; 
+    border-radius: 50%;
 }
 
 .cv-section {
@@ -57,7 +57,7 @@ h2 {
 
 .Education {
     background-color: #d0d0d0;
-    margin-bottom: 50px; 
+    margin-bottom: 50px;
 }
 
 .about-me p,
@@ -75,14 +75,16 @@ ul li {
     color: green;
 }
 
-footer { 
+footer {
     text-align: center;
     padding: 10px;
     background-color: #473e3e;
     color: #ffffff;
-    position: fixed; 
-    width: 100%;
+    position: fixed;
+    width: 800px;
     bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 a:hover {
@@ -90,19 +92,19 @@ a:hover {
 }
 
 footer p a {
-    color: #473e3e; 
-    background-color: #ffffff; 
-    padding: 10px 20px; 
-    border-radius: 5px; 
-    text-decoration: none; 
-    display: inline-block; 
+    color: #473e3e;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
     font-weight: bold;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
-    transition: all 0.2s ease-in-out; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s ease-in-out;
 }
 
 footer p a:hover {
-    background-color: #e0e0e0; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6); 
-    transform: scale(1.05); 
+    background-color: #e0e0e0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+    transform: scale(1.05);
 }
