@@ -14,10 +14,19 @@ body {
 h1 {
     color: #000000;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
     font-size: 36px;
     font-weight: bold;
     text-shadow: 2px 2px 4px #aaa;
+}
+
+.title {
+    color: #ffffff;
+    text-align: center;
+    margin-top: 0px;
+    font-size: 36px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px #000000;
 }
 
 h2 {
@@ -31,7 +40,7 @@ h2 {
 .profile-image {
     width: 50%;
     height: auto;
-    max-width: 400px;
+    max-width:250px;
     display: block;
     margin: 20px auto;
     border-radius: 50%;
