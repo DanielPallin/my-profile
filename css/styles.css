@@ -1,110 +1,92 @@
 body {
     font-family: 'Fira Code', Courier, monospace;
-    color: #333;
-    background-color: #886f6f;
-}
-
-#profile-page {
-    width: 800px;
-    margin: 0 auto;
-    background-color: #f8f8f8;
-    padding-bottom: 70px;
-}
-
-h1 {
-    color: #000000;
-    text-align: center;
-    margin-top: 20px;
-    font-size: 36px;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px #aaa;
-}
-
-h2 {
-    color: #333333;
-    margin-top: 20px;
-    font-size: 28px;
-    font-weight: bold;
-    text-shadow: 1px 1px 3px #bbb;
+    color: #6b1186;
+    background-color: #edbebe;
+    font-weight: 650;
 }
 
 .profile-image {
     width: 50%;
     height: auto;
-    max-width: 400px;
+    max-width:250px;
     display: block;
     margin: 20px auto;
     border-radius: 50%;
 }
 
-.cv-section {
-    padding: 20px;
+header {
+    display: grid;
+    max-width: 800px;
     margin: 20px auto;
-    width: 80%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border: 1px solid #ccc;
-}
-
-.about-me {
-    background-color: #f4f4f4;
-    border-radius: 10px;
-}
-
-.Experiences {
-    background-color: #e2e2e2;
-}
-
-.Education {
-    background-color: #d0d0d0;
-    margin-bottom: 50px;
-}
-
-.about-me p,
-.Experiences p {
-    line-height: 20px;
-    font-size: 20px;
-}
-
-li {
-    margin-bottom: 10px;
-    font-size: 20px;
-}
-
-ul li {
-    color: green;
-}
-
-footer {
-    text-align: center;
-    padding: 10px;
-    background-color: #473e3e;
-    color: #ffffff;
-    position: fixed;
-    width: 800px;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-a:hover {
-    color: #999;
-}
-
-footer p a {
-    color: #473e3e;
+    padding: 20px;
+    border: #6b1186 2px solid;
+    border-radius: 8px;
     background-color: #ffffff;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    display: inline-block;
-    font-weight: bold;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-    transition: all 0.2s ease-in-out;
+    height: 40px;
 }
 
-footer p a:hover {
-    background-color: #e0e0e0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
-    transform: scale(1.05);
+header h1 {
+    margin: 0;
+    font-size: 32px;
+    text-align: center;
+    line-height: 40px;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: #6b1186 2px solid;
+    border-radius: 8px;
+}
+
+.box {
+    border: #6b1186 2px solid;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f9f9f9;
+    text-align: center;
+    font-size: 24px;
+}
+
+.box p {
+    font-size: 18px;
+    line-height: 2;;
+    text-align: center;
+}
+
+ul {
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.container {
+    display: grid;
+    border: #6b1186 2px solid;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    font-size: 24px;
+    text-align: center;
+}
+
+.container ul {
+    font-size: 18px;
+    text-align: left;
+}
+
+button {
+    background-color: #6b1186;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 20px auto;
+    hover: background-color black;
 }
